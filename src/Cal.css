@@ -1,0 +1,65 @@
+body{
+    background-color: gray;
+}
+.Body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: black;
+    max-width: 400px;
+    min-width: 200px;
+    min-height: 200px;
+    max-height: 400px;
+    margin: auto;
+    flex-direction: column;
+    overflow: hidden;
+
+    
+}
+.Header{
+  text-align: center;
+  font-weight: 1000;
+  
+}
+.Screen{
+    display: flex;
+    border-style: solid;
+    border-color: black;
+    min-width: 350px;
+    margin-top: 10px;
+    padding: 16px;
+    justify-content: right;
+  
+}
+.opera{
+    display: flex;
+    flex-direction: row;
+    min-width: 400px;
+}
+.oper{
+    display: flex;
+    border-style: solid;
+    border-color: black;
+    justify-content: center;
+    padding: 10px;
+    text-align: right;
+    flex: 1 1 20%;
+    
+}
+.but{
+    display: flex;
+    flex-direction: row;
+    min-width: 400px;
+    flex-wrap: wrap;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    text-align: right;
+    flex: 1 1 33.333%;
+    
+}
